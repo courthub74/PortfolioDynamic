@@ -36,8 +36,9 @@
     border-radius: 40px;
     background-color: #36395D;
     width: 20vw;
-    height: 6vh;
-    margin: 0 7vw 0 0;
+    height: 20vw;
+    border-radius: 50%;
+    margin: 1vh 7vw 0 0;
   }
   * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletburger {
     position: relative;
