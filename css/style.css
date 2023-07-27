@@ -860,4 +860,23 @@
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
   }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv {
+    background-color: #080E2F;
+    color: white;
+    height: 105vh;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet {
+    display: flex;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet .titlemobile {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
