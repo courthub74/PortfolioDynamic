@@ -232,7 +232,7 @@
   * body #tabletcontainer #skillstabletcontainer #skillstablet {
     background-color: #146166;
     color: white;
-    height: 260vh;
+    height: 215vh;
   }
   * body #tabletcontainer #skillstabletcontainer #skillstablet .topskillstablet {
     display: flex;
@@ -458,7 +458,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2vh 0 0 0;
+    margin: 0vh 0 0 0;
   }
   * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet {
     display: flex;
@@ -644,7 +644,6 @@
     font-family: "Roboto", sans-serif;
   }
   * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .webframeworksdescription .serversidetitle {
-    width: 100%;
     margin: 4vh 0 0 1vw;
   }
   * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .webframeworksdescription .serversidetitle p {
@@ -653,6 +652,207 @@
   }
   * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .webframeworksdescription .underlinewebframeworksdiv .webframeworkslinetablet {
     margin: 2vh 0 0 0vw;
+    width: 80vw;
+    height: 2vh;
+    background-color: #080E2F;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .mongo #mongo {
+    margin: 0vh 0 0 0;
+    width: 3vw;
+    height: 8vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .mongo p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .firebase #firebase {
+    margin: -2vh 0 0 0;
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .firebase p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .postgre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .postgre #postgre {
+    margin: 0vh 0 0 0;
+    width: 8vw;
+    height: 7.5vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .postgre p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .databasedescription .databasetitle {
+    margin: 4vh 0 0 34vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .databasedescription .databasetitle p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 4vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .databasedescription .underlinedatabasediv .databaselinetablet {
+    margin: 2vh 0 0 0;
+    width: 80vw;
+    height: 2vh;
+    background-color: #080E2F;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .heroku {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .heroku #heroku {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .heroku p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .azureicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .azureicon #azureicon {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .azureicon p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .aws {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 3vh;
+    width: 10vw;
+    height: 10vw;
+    gap: 1vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .aws #aws {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .aws p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdescription .deploymenttitle {
+    margin: -3vh 0 0 0;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdescription .deploymenttitle p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 4vw;
+  }
+  * body #tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdescription .underlinedeploymentdiv .deploymentlinetablet {
+    margin: 2vh 0 0 0;
     width: 80vw;
     height: 2vh;
     background-color: #080E2F;
