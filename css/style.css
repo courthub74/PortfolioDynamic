@@ -879,4 +879,195 @@
     display: flex;
     flex-direction: column;
   }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 4.5vh 0 0 0;
+    transition: ease-in 0.8s;
+    z-index: 98;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border {
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 88%;
+    height: 80%;
+    padding: 2vh;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel {
+    display: flex;
+    justify-content: space-between;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .app1logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 3vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .app1logo img {
+    width: 16vw;
+    height: 16vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .app1logo p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 3vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .sectiontitle {
+    margin: 4vh 5.5vw 0 0;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .sectiontitle p {
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .app1description {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 2.5vw;
+    margin: 5vh 0 0 0;
+    padding-left: 3vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies {
+    margin: 5vh 0 0 2.5vw;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies h3 {
+    font-size: 3vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles {
+    display: flex;
+    margin: 2vh 0 0 0;
+    gap: 4vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle {
+    border: 1px solid #05607D;
+    background-color: #05607D;
+    border-radius: 50%;
+    width: 18vw;
+    height: 18vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #react {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    height: 100%;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #react img {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #react p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #express {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100%;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #express img {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #express p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vh;
+    height: 100%;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #firebase img {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #firebase p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .accomplishments {
+    margin: 4vh 0 0 0;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .accomplishments h3 {
+    font-family: "Inter", sans-serif;
+    margin: 0 0 1vh 0;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .accomplishments p {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    line-height: 3.5vh;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links {
+    margin: 2vh 0 0 0.1vw;
+    display: flex;
+    gap: 5vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .linkto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .linkto a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .linkto a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .linkto p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #05607D;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .github a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .github a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .github p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    color: #05607D;
+  }
 }/*# sourceMappingURL=style.css.map */

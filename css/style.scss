@@ -1059,19 +1059,211 @@ $lighterskills: #080e31;
                             ////////////////////// 
                             ////////////////////// 
                             // APP ONE DESCRIPTION
-                            // .app-1-description {
-                            //     // position: fixed;
-                            //     top: 0;
-                            //     left: 100%;
-                            //     width: 100%;
-                            //     height: 100vh;
-                            //     display: block;
-                            //     background-color: $mainblue;
-                            //     // background-color: yellowgreen;
-                            //     margin: 4.5vh 0 0 0;
-                            //     transition: ease-in .8s;
-                            //     z-index: 98;
-                            // }
+                            .app-1-description {
+                                // position: fixed;
+                                top: 0;
+                                left: 100%;
+                                width: 100%;
+                                height: 100vh;
+                                display: block;
+                                background-color: $mainblue;
+                                // background-color: yellowgreen;
+                                margin: 4.5vh 0 0 0;
+                                transition: ease-in .8s;
+                                z-index: 98;
+                                .border {
+                                    border: 4px solid $skillswhite;
+                                    border-radius: 10px;
+                                    margin: 0 auto;
+                                    width: 88%;
+                                    height: 80%;
+                                    padding: 2vh;
+                                    .toplevel {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        .app1logo {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin: 0 0 0 3vw;
+                                            img {
+                                                width: 16vw;
+                                                height: 16vw;
+                                            }
+                                            p {
+                                                font-family: 'Julius Sans One', sans-serif;
+                                                font-size: 3vw;
+                                            }
+                                        }
+                                        .sectiontitle {
+                                            margin: 4vh 5.5vw 0 0;
+                                            // background-color: yellowgreen;
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 5vw;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                        // .close_description {
+                                        //     background-color: $mainblue;
+                                        //     border: none;
+                                        //     color: white;
+                                        //     font-size: 4vw;
+                                        // }
+                                    }
+                                    .app1content {
+                                        .app1description {
+                                            font-family: 'Inter', sans-serif;
+                                            text-align: left;
+                                            font-size: 2.5vw;
+                                            margin: 5vh 0 0 0;
+                                            padding-left: 3vw;
+                                        }
+                                        .apptechnologies {
+                                            margin: 5vh 0 0 2.5vw;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            h3 {
+                                                font-size: 3vw;
+                                            }
+                                            .apptechcircles {
+                                                display: flex;
+                                                margin: 2vh 0 0 0;
+                                                gap: 4vw;
+                                                .apptechcircle {
+                                                    border: 1px solid $techcirclegreen;
+                                                    background-color: $techcirclegreen;
+                                                    border-radius: 50%;
+                                                    width: 18vw;
+                                                    height: 18vw;
+                                                    #react {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: .5vh;
+                                                        height: 100%;
+                                                        img {
+                                                            width: 8vw;
+                                                            height: 8vw;
+                                                        }
+                                                        p {
+                                                            font-family: 'Inter', sans-serif;
+                                                            font-size: .8em;
+                                                            color: $hoverfonts;
+                                                        }
+                                                    }
+                                                    #express {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: 1vh;
+                                                        height: 100%;
+                                                        img {
+                                                            width: 7vw;
+                                                            height: 7vw;
+                                                        }
+                                                        p {
+                                                            font-family: 'Inter', sans-serif;
+                                                            font-size: .8em;
+                                                            color: $hoverfonts;
+                                                        }
+                                                    }
+                                                    #firebase {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: .3vh;
+                                                        height: 100%;
+                                                        
+                                                        img {
+                                                            // margin-top: -.2vh;
+                                                            width: 8.5vw;
+                                                            height: 8.5vw;
+                                                        }
+                                                        p {
+                                                            font-family: 'Inter', sans-serif;
+                                                            font-size: .8em;
+                                                            color: $hoverfonts;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .accomplishments {
+                                            margin: 4vh 0 0 0;
+                                            h3 {
+                                                font-family: 'Inter', sans-serif;
+                                                margin: 0 0 1vh 0;
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 2.5vw;
+                                                line-height: 3.5vh;
+                                            }
+                                        }
+                                        .links {
+                                            margin: 2vh 0 0 .1vw;
+                                            display: flex;
+                                            gap: 5vw;
+                                            .linkto {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border: $hoverfonts 1px solid;
+                                                border-radius: 50%;
+                                                background-color: $skillswhite;
+                                                background-color: $skillswhite;
+                                                width: 8vw;
+                                                height: 8vw;
+                                                a {
+                                                    margin: .5vh 0 0 0;
+                                                    img {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                }
+                                                p {
+                                                    font-family: 'Inter', sans-serif;
+                                                    font-size: 3vw;
+                                                    font-weight: bold;
+                                                    color: $techcirclegreen;
+                                                }
+                                            }
+                                            .github {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border: $hoverfonts 1px solid;
+                                                border-radius: 50%;
+                                                background-color: $skillswhite;
+                                                // background-color: $hoverfonts;
+                                                width: 8vw;
+                                                height: 8vw;
+                                                a {
+                                                    margin: .5vh 0 0 0;
+                                                    img {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                }
+                                                p {
+                                                    font-family: 'Inter', sans-serif;
+                                                    font-size: 3vw;
+                                                    font-weight: bold;
+                                                    margin: 0 0 0 0;
+                                                    color: $techcirclegreen;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
