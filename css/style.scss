@@ -76,9 +76,12 @@ $lighterskills: #080e31;
                             border: 1px solid $portfolios;
                             border-radius: 40px;
                             background-color: $portfolios;
+                            // width: 20vw;
+                            // height: 6vh;
                             width: 20vw;
-                            height: 6vh;
-                            margin: 0 7vw 0 0;
+                            height: 20vw;
+                            border-radius: 50%;
+                            margin: 1vh 7vw 0 0;
                             // margin: 2vh 0 0 35vw;
                             .tabletburger {
                                 position: relative;
