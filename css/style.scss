@@ -53,7 +53,7 @@ $lighterskills: #080e31;
             #mobilecontainer {
                 display: none;
             }
-            #tabletcontainer {
+            .tabletcontainer {
                 #tablethome {
                     background-color: $mainblue;
                     color: white;
@@ -1361,10 +1361,10 @@ $lighterskills: #080e31;
                     }
                 }
             }
-            // .tabletcontainer.still {
-            //     position: fixed;
-            //     background-color: $mainblue;
-            // }
+            .tabletcontainer.still {
+                position: fixed;
+                background-color: $mainblue;
+            }
         }
     }
 }
