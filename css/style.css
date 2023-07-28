@@ -282,8 +282,9 @@
     height: 7vw;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html p {
-    color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css {
@@ -307,7 +308,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass {
@@ -331,7 +334,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndescription {
@@ -348,7 +353,7 @@
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndescription .underlineresponsediv .underlinetablet {
     margin: 2vh 0 0 0;
     width: 80vw;
-    height: 2vh;
+    height: 1vh;
     background-color: #080E2F;
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
@@ -387,7 +392,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .react-native p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     text-align: center;
     font-family: "Roboto", sans-serif;
   }
@@ -412,7 +419,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .reactjs p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .figma {
@@ -436,7 +445,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .figma p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdescription .userinterfacestitle {
@@ -449,7 +460,7 @@
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdescription .underlineuserinterfacesdiv .userinterfacelinetablet {
     margin: 0 0 0 0vw;
     width: 80vw;
-    height: 2vh;
+    height: 1vh;
     background-color: #080E2F;
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
@@ -489,7 +500,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet .javascript p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet .python {
@@ -514,7 +527,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet .python p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet .php {
@@ -539,7 +554,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet .php p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .scriptingdescription .scriptingtitle {
@@ -552,7 +569,7 @@
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .scriptingdescription .underlinescriptingdiv .scriptinglinetablet {
     margin: 8vh 0 0 0;
     width: 80vw;
-    height: 2vh;
+    height: 1vh;
     background-color: #080E2F;
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
@@ -591,7 +608,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .iconsfourthrowtablet .nodejs p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .iconsfourthrowtablet .django {
@@ -616,7 +635,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .iconsfourthrowtablet .django p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .iconsfourthrowtablet .laravel {
@@ -641,7 +662,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .iconsfourthrowtablet .laravel p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .webframeworksdescription .serversidetitle {
@@ -654,7 +677,7 @@
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .webframeworksdescription .underlinewebframeworksdiv .webframeworkslinetablet {
     margin: 2vh 0 0 0vw;
     width: 80vw;
-    height: 2vh;
+    height: 1vh;
     background-color: #080E2F;
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
@@ -693,7 +716,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .mongo p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .firebase {
@@ -718,7 +743,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .firebase p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .postgre {
@@ -743,7 +770,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .postgre p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .databasedescription .databasetitle {
@@ -756,7 +785,7 @@
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .databasedescription .underlinedatabasediv .databaselinetablet {
     margin: 2vh 0 0 0;
     width: 80vw;
-    height: 2vh;
+    height: 1vh;
     background-color: #080E2F;
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
@@ -794,7 +823,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .heroku p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .azureicon {
@@ -817,7 +848,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .azureicon p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
     text-align: center;
   }
@@ -842,7 +875,9 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .aws p {
     color: white;
+    color: #7FC4C9;
     font-size: 2.5vw;
+    opacity: 0.7;
     font-family: "Roboto", sans-serif;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdescription .deploymenttitle {
@@ -855,7 +890,7 @@
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdescription .underlinedeploymentdiv .deploymentlinetablet {
     margin: 2vh 0 0 0;
     width: 80vw;
-    height: 2vh;
+    height: 1vh;
     background-color: #080E2F;
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
@@ -877,11 +912,13 @@
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet.darker {
     opacity: 0;
-    transition: 0.8s;
+    transition: all 0.8s;
+    color: #080E2F;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet.darker2 {
     opacity: 1;
     transition: 1.5s;
+    color: white;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile {
     display: flex;
@@ -1164,7 +1201,8 @@
     height: 28vw;
   }
   * body .tabletcontainer.no-scroll {
-    opacity: 0.1;
+    overflow: hidden;
     position: fixed;
+    background-color: red;
   }
 }/*# sourceMappingURL=style.css.map */
