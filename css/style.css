@@ -932,7 +932,7 @@
     height: 100vh;
     display: block;
     background-color: #080E2F;
-    margin: 4.5vh 0 0 0;
+    margin: -5vh 0 0 0;
     transition: ease-in 0.8s;
     z-index: 98;
   }
@@ -940,6 +940,7 @@
     border: 4px solid #FFFFFF;
     border-radius: 10px;
     margin: 0 auto;
+    margin: 10vh 0 0 2.5vw;
     width: 88%;
     height: 80%;
     padding: 2vh;
