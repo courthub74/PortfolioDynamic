@@ -69,6 +69,10 @@ const app1description = document.querySelector('.app-1-description');
 // query the close button
 const closeapp1 = document.querySelector('.back_arrow_one');
 
+// select the whole body by ID
+const wholetablet = document.querySelector('.tabletcontainer');
+
+
 // apply the Event Listener to the app1 button
 app1.addEventListener('click', function () {
     // test print
@@ -76,6 +80,10 @@ app1.addEventListener('click', function () {
     // toggle the is-active class on the slide in menu to on
         // so it slides in
     app1description.classList.toggle('slide-in');
+    // set the body to fixed here
+    wholetablet.classList.toggle('.still');
+    // test print
+    console.log(wholetablet);
 });
 
 
