@@ -880,6 +880,7 @@
     flex-direction: column;
   }
   * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description {
+    position: fixed;
     top: 0;
     left: 100%;
     width: 100%;
@@ -1069,5 +1070,89 @@
     font-weight: bold;
     margin: 0 0 0 0;
     color: #05607D;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .closeapp1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0 0 0;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .closeapp1 .back_arrow_one {
+    background-color: #080E2F;
+    color: white;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .closeapp1 .back_arrow_one img {
+    width: 4vw;
+    height: 4vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description.slide-in {
+    left: 0;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7vh;
+    margin: -4vh 0 0 0;
+    gap: 6vh;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet .app1 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    margin: 4vh 0 0 0;
+    width: 100%;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet .app1 img {
+    width: 15vw;
+    height: 15vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet .app1 p {
+    font-size: 4vw;
+    font-family: "Julius Sans One", sans-serif;
+    color: white;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet .app2 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet .app2 img {
+    margin: 0.5vh 0 0 0;
+    width: 40vw;
+    height: 6vw;
+    flex-shrink: 0;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet .app3 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  * body #tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet .app3 img {
+    width: 28vw;
+    height: 28vw;
   }
 }/*# sourceMappingURL=style.css.map */

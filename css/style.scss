@@ -1060,7 +1060,7 @@ $lighterskills: #080e31;
                             ////////////////////// 
                             // APP ONE DESCRIPTION
                             .app-1-description {
-                                // position: fixed;
+                                position: fixed;
                                 top: 0;
                                 left: 100%;
                                 width: 100%;
@@ -1261,6 +1261,99 @@ $lighterskills: #080e31;
                                                 }
                                             }
                                         }
+                                    }
+                                }
+                                // Back Arrow
+                                .closeapp1 {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 3vh 0 0 0;
+                                    .back_arrow_one {
+                                        background-color: $mainblue;
+                                        color: white;
+                                        border: none;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        font-weight: bold;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        img {
+                                            width: 4vw;
+                                            height: 4vw;
+                                        }
+                                    }
+                                }
+                            }
+                            .app-1-description.slide-in {
+                                left: 0;
+                            }
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            /// PORTFOLIO CONTENT HERE
+                            .portfoliooutlinetablet {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                padding: 7vh;
+                                margin: -4vh 0 0 0;
+                                gap: 6vh;
+                                .app1 {
+                                    border: 1px solid $portfolios;
+                                    background-color: $portfolios;
+                                    border-radius: 10px;
+                                    height: 30vw;
+                                    width: 78vw;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    margin: 4vh 0 0 0;
+                                    width: 100%;
+                                    img {
+                                        width: 15vw;
+                                        height: 15vw;
+                                    }
+                                    p {
+                                        font-size: 4vw;
+                                        font-family: 'Julius Sans One', sans-serif;
+                                        // font-weight: bold;
+                                        color: white;
+                                    }
+                                }
+                                .app2 {
+                                    border: 1px solid $portfolios;
+                                    background-color: $portfolios;
+                                    border-radius: 10px;
+                                    height: 30vw;
+                                    width: 78vw;
+                                    img {
+                                        margin: .5vh 0 0 0;
+                                        width: 40vw;
+                                        height: 6vw;
+                                        flex-shrink: 0;
+                                    }
+                                }
+                                .app3 {
+                                    border: 1px solid $portfolios;
+                                    background-color: $portfolios;
+                                    border-radius: 10px;
+                                    height: 30vw;
+                                    width: 78vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 0 0 0 0;
+                                    width: 100%;
+                                    img {
+                                        width: 28vw;
+                                        height: 28vw;
                                     }
                                 }
                             }
