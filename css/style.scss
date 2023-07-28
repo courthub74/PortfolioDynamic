@@ -50,12 +50,13 @@ $lighterskills: #080e31;
         scroll-snap-type: y mandatory;
         body {
             background-color: $smallsgrey;
+            // overflow: hidden;
+            //    position: fixed;
+            //    opacity: .1;
             #mobilecontainer {
                 display: none;
             }
             .tabletcontainer {
-            //    position: fixed;
-            //    opacity: .1;
                 #tablethome {
                     background-color: $mainblue;
                     color: white;
@@ -1410,11 +1411,10 @@ $lighterskills: #080e31;
                     }
                 }
             }
-            .tabletcontainer.no-scroll {
-                overflow: hidden;
-                position: fixed;
-                background-color: red;
-             }
+        }
+        body.no-scroll {
+            overflow: hidden;
+            position: fixed;
         }
     }
 }

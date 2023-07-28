@@ -39,6 +39,9 @@ const wholebutton = document.querySelector('.hamburgertablet');
 
 const slide_menu_home = document.querySelector('.tablet-nav-home');
 
+// select the body body
+const bodybody = document.querySelector('.body');
+
 // apply the click function to the wholebutton
 wholebutton.addEventListener('click', function () {
     // test print
@@ -49,6 +52,8 @@ wholebutton.addEventListener('click', function () {
     buttonx.classList.toggle('is-shown');
     // toggle the slide in menu css class on to slide-in
     slide_menu_home.classList.toggle('slide-in');
+    // change the body
+    bodybody.classList.toggle('no-scroll');
 });
 
 //////////////////////////////////////////////////////
@@ -73,7 +78,7 @@ const closeapp1 = document.querySelector('.back_arrow_one');
 const wholetablet = document.querySelector('.tabletcontainer');
 
 // select the body body
-const bodybody = document.getElementsByTagName('body');
+// const bodybody = document.querySelector('.body');
 
 // query the portfolio section
 const wholeportfolio = document.getElementById('portfoliotabletdiv');
@@ -89,11 +94,9 @@ app1.addEventListener('click', function () {
         // so it slides in
     app1description.classList.toggle('slide-in');
     // change the portfolio section
-    portfoliotops.classList.toggle('darker');
+    // portfoliotops.classList.toggle('darker');
     // test print
     console.log(portfoliotops);
-    // wholeportfolio.classList.toggle('no-scroll');
-    // console.log(wholeportfolio);
 });
 
 
@@ -105,8 +108,4 @@ closeapp1.addEventListener('click', function () {
     // toggle the is-active class on the slide in menu to off
         // so it slides out
     app1description.classList.toggle('slide-in');
-    // change the portfolio section
-    portfoliotops.classList.toggle('darker');
-    portfoliotops.classList.toggle('darker2');
-    // console.log(portfoliotops);
 });

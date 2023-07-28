@@ -1200,9 +1200,8 @@
     width: 28vw;
     height: 28vw;
   }
-  * body .tabletcontainer.no-scroll {
+  * body.no-scroll {
     overflow: hidden;
     position: fixed;
-    background-color: red;
   }
 }/*# sourceMappingURL=style.css.map */
