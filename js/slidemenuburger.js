@@ -72,6 +72,13 @@ const closeapp1 = document.querySelector('.back_arrow_one');
 // select the whole body by ID
 const wholetablet = document.querySelector('.tabletcontainer');
 
+// select the body body
+const bodybody = document.getElementsByTagName('body');
+
+// query the portfolio section
+
+// TOP
+const portfoliotops = document.querySelector('.topportfoliotablet');
 
 // apply the Event Listener to the app1 button
 app1.addEventListener('click', function () {
@@ -80,10 +87,10 @@ app1.addEventListener('click', function () {
     // toggle the is-active class on the slide in menu to on
         // so it slides in
     app1description.classList.toggle('slide-in');
-    // set the body to fixed here
-    wholetablet.classList.toggle('.still');
+    // change the portfolio section
+    portfoliotops.classList.toggle('darker');
     // test print
-    console.log(wholetablet);
+    console.log(portfoliotops);
 });
 
 
@@ -95,4 +102,6 @@ closeapp1.addEventListener('click', function () {
     // toggle the is-active class on the slide in menu to off
         // so it slides out
     app1description.classList.toggle('slide-in');
+    // change the portfolio section
+    portfoliotops.classList.toggle('darker2');
 });

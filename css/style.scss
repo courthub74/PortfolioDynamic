@@ -54,6 +54,8 @@ $lighterskills: #080e31;
                 display: none;
             }
             .tabletcontainer {
+            //    position: fixed;
+            //    opacity: .1;
                 #tablethome {
                     background-color: $mainblue;
                     color: white;
@@ -1025,6 +1027,14 @@ $lighterskills: #080e31;
                                 }
                             }
                         }
+                        .topportfoliotablet.darker {
+                            opacity: 0;
+                            transition: .8s;
+                        }
+                        .topportfoliotablet.darker2 {
+                            opacity: 1;
+                            transition: 1.5s;
+                        }
                         .botportfoliomobile {
                             display: flex;
                             flex-direction: column;
@@ -1361,9 +1371,9 @@ $lighterskills: #080e31;
                     }
                 }
             }
-            .tabletcontainer.still {
+            .tabletcontainer.no-scroll {
+                opacity: .1;
                 position: fixed;
-                background-color: $mainblue;
             }
         }
     }

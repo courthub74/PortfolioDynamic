@@ -875,6 +875,14 @@
     font-size: 10vw;
     font-family: "Inter", sans-serif;
   }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet.darker {
+    opacity: 0;
+    transition: 0.8s;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet.darker2 {
+    opacity: 1;
+    transition: 1.5s;
+  }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile {
     display: flex;
     flex-direction: column;
@@ -1155,8 +1163,8 @@
     width: 28vw;
     height: 28vw;
   }
-  * body .tabletcontainer.still {
+  * body .tabletcontainer.no-scroll {
+    opacity: 0.1;
     position: fixed;
-    background-color: #080E2F;
   }
 }/*# sourceMappingURL=style.css.map */
