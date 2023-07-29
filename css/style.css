@@ -1143,13 +1143,14 @@
     left: 0;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description {
+    position: fixed;
     top: 0;
     left: 100%;
     width: 100%;
     height: 100vh;
     display: block;
     background-color: #080E2F;
-    margin: 4.5vh 0 0 0;
+    margin: -6vh 0 0 0;
     transition: ease-in 0.8s;
     z-index: 98;
   }
@@ -1157,9 +1158,9 @@
     border: 4px solid #FFFFFF;
     border-radius: 10px;
     margin: 0 auto;
-    margin: 10vh 0 0 2.5vw;
+    margin: 12vh 0 0 2.5vw;
     width: 88%;
-    height: 80%;
+    height: 78%;
     padding: 2vh;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo {
@@ -1174,8 +1175,8 @@
     margin: 2.5vh 0 0 3vw;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .app2logo img {
-    width: 30vw;
-    height: 5vw;
+    width: 35vw;
+    height: 6vw;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .sectiontitle {
     margin: 2vh 5.5vw 0 0;
@@ -1188,9 +1189,172 @@
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .app2description {
     font-family: "Inter", sans-serif;
     text-align: left;
-    font-size: 2.8vw;
-    margin: 5vh 0 0 0;
+    font-size: 2.5vw;
+    margin: 8vh 0 0 0;
     padding-left: 3vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo {
+    margin: 5vh 0 0 2.5vw;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo h3 {
+    font-size: 3vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo {
+    display: flex;
+    margin: 2vh 0 0 -1vw;
+    font-family: "Inter", sans-serif;
+    gap: 4vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo {
+    border: 1px solid #05607D;
+    background-color: #05607D;
+    border-radius: 50%;
+    width: 18vw;
+    height: 18vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #react {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    height: 100%;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #react img {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #react p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #express {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100%;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #express img {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #express p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vh;
+    height: 100%;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #mongo img {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcirclestwo .apptechcircletwo #mongo p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .accomplishmentstwo {
+    margin: 4vh 0 0 0;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .accomplishmentstwo h3 {
+    font-family: "Inter", sans-serif;
+    margin: 0 0 1vh 0;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .accomplishmentstwo p {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    line-height: 3.5vh;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo {
+    margin: 3vh 0 0 0.1vw;
+    display: flex;
+    gap: 5vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .linkto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .linkto a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .linkto a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .linkto p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #05607D;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .github a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .github a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .github p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    color: #05607D;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .closeapp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0 0 0;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .closeapp2 .back_arrow_two {
+    background-color: #080E2F;
+    color: white;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .closeapp2 .back_arrow_two img {
+    width: 4vw;
+    height: 4vw;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description.slide-in {
+    left: 0;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet {
     display: flex;
