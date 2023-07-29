@@ -1787,7 +1787,7 @@ $lighterskills: #080e31;
                     #blogtablet {
                         background-color: $skillsteal;
                         color: white;
-                        height: 100vh;
+                        height: 105vh;
                         .topblogtablet {
                             display: flex;
                             .titlemobile {
@@ -1806,7 +1806,6 @@ $lighterskills: #080e31;
                             justify-content: center;
                             align-items: center;
                             margin: 0vh 0 0 0;
-                            gap: 3vh;
                             // background-color: #58a6ff;
                             padding: 1vh 1vh;
                             ////////////////////// 
@@ -2275,14 +2274,14 @@ $lighterskills: #080e31;
                                 overflow-y: scroll;
                                 justify-content: center;
                                 align-items: center;
-                                margin: 2vh 0 0 0;
-                                gap: 3vh;
+                                margin: 3vh 0 0 0;
+                                gap: 2vh;
                                 // background-color: #58a6ff;
                                 // padding: 1vh 1vh;
                                 .blogcircles {
                                     background-color: $mainblue;
                                     background-color: $skillsdarker2;
-                                    border: 5px solid $mainblue;
+                                    // border: 5px solid $mainblue;
                                     border-radius: 50%;
                                     width: 35vw;
                                     height: 35vw;

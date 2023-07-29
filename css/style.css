@@ -1507,7 +1507,7 @@
   * body .tabletcontainer #blogtabletcontainer #blogtablet {
     background-color: #146166;
     color: white;
-    height: 100vh;
+    height: 105vh;
   }
   * body .tabletcontainer #blogtabletcontainer #blogtablet .topblogtablet {
     display: flex;
@@ -1525,7 +1525,6 @@
     justify-content: center;
     align-items: center;
     margin: 0vh 0 0 0;
-    gap: 3vh;
     padding: 1vh 1vh;
   }
   * body .tabletcontainer #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in {
@@ -1890,13 +1889,12 @@
     overflow-y: scroll;
     justify-content: center;
     align-items: center;
-    margin: 2vh 0 0 0;
-    gap: 3vh;
+    margin: 3vh 0 0 0;
+    gap: 2vh;
   }
   * body .tabletcontainer #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles {
     background-color: #080E2F;
     background-color: #507e81;
-    border: 5px solid #080E2F;
     border-radius: 50%;
     width: 35vw;
     height: 35vw;
