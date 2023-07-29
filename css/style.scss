@@ -1412,20 +1412,29 @@ $lighterskills: #080e31;
                                             flex-direction: column;
                                             justify-content: center;
                                             align-items: center;
-                                            margin: 0 0 0 3vw;
+                                            margin: 2vh 0 0 3vw;
                                             img {
                                                 width: 36vw;
-                                                height: 8vw;
+                                                height: 6vw;
                                             }
                                         }
                                         .sectiontitle {
-                                            margin: 4vh 5.5vw 0 0;
+                                            margin: 2vh 5.5vw 0 0;
                                             // background-color: yellowgreen;
                                             p {
                                                 font-family: 'Inter', sans-serif;
                                                 font-size: 5vw;
                                                 font-weight: bold;
                                             }
+                                        }
+                                    }
+                                    .app2content {
+                                        .app2description {
+                                            font-family: 'Inter', sans-serif;
+                                            text-align: left;
+                                            font-size: 2.8vw;
+                                            margin: 5vh 0 0 0;
+                                            padding-left: 3vw;
                                         }
                                     }
                                 } 

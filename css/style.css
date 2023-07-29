@@ -1171,19 +1171,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 0 0 3vw;
+    margin: 2vh 0 0 3vw;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .app2logo img {
     width: 36vw;
-    height: 8vw;
+    height: 6vw;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .sectiontitle {
-    margin: 4vh 5.5vw 0 0;
+    margin: 2vh 5.5vw 0 0;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .sectiontitle p {
     font-family: "Inter", sans-serif;
     font-size: 5vw;
     font-weight: bold;
+  }
+  * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .app2description {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 2.8vw;
+    margin: 5vh 0 0 0;
+    padding-left: 3vw;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet {
     display: flex;
