@@ -36,8 +36,7 @@
     border-radius: 40px;
     background-color: #36395D;
     width: 20vw;
-    height: 20vw;
-    border-radius: 50%;
+    height: 6vh;
     margin: 1vh 7vw 0 0;
   }
   * body .tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletburger {
@@ -128,17 +127,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid #B7BCD6;
     border-radius: 50%;
-    width: 44vw;
-    height: 44vw;
-    background-color: #36395D;
+    width: 42vw;
+    height: 42vw;
+    background-color: #B7BCD6;
     padding: 1vh;
   }
   * body .tabletcontainer #tablethome .bothometablet .phototablet img {
     border-radius: 50%;
-    width: 43vw;
-    height: 43vw;
+    width: 42vw;
+    height: 42vw;
   }
   * body .tabletcontainer #tablethome .bothometablet .nameheadertablet {
     margin: 6vh 0 0 0;
@@ -899,7 +897,7 @@
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv {
     background-color: #080E2F;
     color: white;
-    height: 105vh;
+    height: 100vh;
   }
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet {
     display: flex;
@@ -1150,7 +1148,7 @@
     height: 100vh;
     display: block;
     background-color: #080E2F;
-    margin: -6vh 0 0 0;
+    margin: -7vh 0 0 0;
     transition: ease-in 0.8s;
     z-index: 98;
   }
@@ -1415,6 +1413,96 @@
   * body .tabletcontainer #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutlinetablet .app3 img {
     width: 30vw;
     height: 30vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet {
+    background-color: #0E4946;
+    color: white;
+    height: 100vh;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .topexperiencetablet {
+    display: flex;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .topexperiencetablet .titletablet {
+    margin: 4vh 0 0 5vh;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .topexperiencetablet .titletablet h1 {
+    font-size: 9vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 5vh 0 0 0;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
+    border-radius: 12px;
+    padding: 8vw;
+    width: 33vw;
+    height: 33vw;
+    margin: 0 0 0 5vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs img {
+    margin: -2vh 0 0 5vw;
+    width: 24vw;
+    height: 24vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs .jobdeets {
+    margin: 4vh 0 0 0;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs .jobdeets h4 {
+    font-size: 3vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs .jobdeets p {
+    font-size: 2.5vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
+    border-radius: 12px;
+    padding: 8vw;
+    width: 33vw;
+    height: 33vw;
+    margin: 0 0 0 5vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea img {
+    margin: 0vh 0 0 7vw;
+    width: 19vw;
+    height: 21vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea .jobdeets {
+    margin: 5vh 0 0 0;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea .jobdeets h4 {
+    font-size: 3vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea .jobdeets p {
+    font-size: 2.5vw;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .education {
+    display: flex;
+    width: 100%;
+  }
+  * body .tabletcontainer #experiencetabletcontainer #experiencetablet .botexperiencetablet .education h3 {
+    margin: 4vh 0 0 5vh;
+    font-size: 7vw;
+    font-family: "Inter", sans-serif;
   }
   * body.no-scroll {
     overflow: hidden;

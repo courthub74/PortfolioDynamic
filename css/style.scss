@@ -79,11 +79,11 @@ $lighterskills: #080e31;
                             border: 1px solid $portfolios;
                             border-radius: 40px;
                             background-color: $portfolios;
-                            // width: 20vw;
-                            // height: 6vh;
                             width: 20vw;
-                            height: 20vw;
-                            border-radius: 50%;
+                            height: 6vh;
+                            // width: 20vw;
+                            // height: 20vw;
+                            // border-radius: 50%;
                             margin: 1vh 7vw 0 0;
                             // margin: 2vh 0 0 35vw;
                             .tabletburger {
@@ -181,16 +181,17 @@ $lighterskills: #080e31;
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            border: 5px solid $socialsgrey;
+                            // border: 5px solid $socialsgrey;
                             border-radius: 50%;
-                            width: 44vw;
-                            height: 44vw;
-                            background-color: $portfolios;
+                            width: 42vw;
+                            height: 42vw;
+                            // background-color: $portfolios;
+                            background-color: $socialsgrey;
                             padding: 1vh;
                             img {
                                 border-radius: 50%;
-                                width: 43vw;
-                                height: 43vw;
+                                width: 42vw;
+                                height: 42vw;
                             }
                         }
                         .nameheadertablet {
@@ -1054,7 +1055,7 @@ $lighterskills: #080e31;
                     #portfoliotabletdiv {
                         background-color: $mainblue;
                         color: white;
-                        height: 105vh;
+                        height: 100vh;
                         // position: fixed;
                         .topportfoliotablet {
                             display: flex;
@@ -1393,7 +1394,7 @@ $lighterskills: #080e31;
                                 display: block;
                                 background-color: $mainblue;
                                 // background-color: yellowgreen;
-                                margin: -6vh 0 0 0;
+                                margin: -7vh 0 0 0;
                                 transition: ease-in .8s;
                                 z-index: 98;
                                 .bordertwo {
@@ -1681,6 +1682,101 @@ $lighterskills: #080e31;
                                         width: 30vw;
                                         height: 30vw;
                                     }
+                                }
+                            }
+                        }
+                    }
+                }
+                // EXPERIENCE SECTION
+                #experiencetabletcontainer {
+                    #experiencetablet {
+                        background-color: $aboutgreen;
+                        color: white;
+                        height: 100vh;
+                        .topexperiencetablet {
+                            display: flex;
+                            .titletablet {
+                                margin: 4vh 0 0 5vh;
+                                h1 {
+                                    font-size: 9vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                        .botexperiencetablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .places {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5vh;
+                                margin: 5vh 0 0 0;
+                                .courdevs {
+                                    display: flex;
+                                    flex-direction: column;
+                                    border: 1px solid $experiencegreenbutton;
+                                    background-color: $experiencegreenbutton;
+                                    border-radius: 12px;
+                                    padding: 8vw;
+                                    width: 33vw;
+                                    height: 33vw;
+                                    margin: 0 0 0 5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 2vw;
+                                    img {
+                                        margin: -2vh 0 0 5vw;
+                                        width: 24vw;
+                                        height: 24vw;
+                                    }
+                                    .jobdeets {
+                                        margin: 4vh 0 0 0;
+                                        h4 {
+                                            font-size: 3vw;
+                                        }
+                                        p {
+                                            font-size: 2.5vw;
+                                        }
+                                    }
+                                }
+                                .slea {
+                                    display: flex;
+                                    flex-direction: column;
+                                    border: 1px solid $experiencegreenbutton;
+                                    background-color: $experiencegreenbutton;
+                                    border-radius: 12px;
+                                    padding: 8vw;
+                                    width: 33vw;
+                                    height: 33vw;
+                                    margin: 0 0 0 5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 2vw;
+                                    img {
+                                        margin: 0vh 0 0 7vw;
+                                        width: 19vw;
+                                        height: 21vw;
+                                    }
+                                    .jobdeets {
+                                        margin: 5vh 0 0 0;
+                                        h4 {
+                                            font-size: 3vw;
+                                        }
+                                        p {
+                                            font-size: 2.5vw;
+                                        }
+                                    }
+                                }
+                            }
+                            // Education
+                            .education {
+                                display: flex;
+                                // background-color: yellow;
+                                width: 100%;
+                                h3 {
+                                    margin: 4vh 0 0 5vh;
+                                    font-size: 7vw;
+                                    font-family: 'Inter', sans-serif;  
                                 }
                             }
                         }

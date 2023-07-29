@@ -112,9 +112,9 @@ closeapp1.addEventListener('click', function () {
         // so it slides out
     app1description.classList.toggle('slide-in');
     // change the portfolio section
-    portfoliotops.classList.toggle('darker');
+    // portfoliotops.classList.toggle('darker');
     // turn on darker 2
-    // portfoliotops.classList.toggle('darker2');
+    portfoliotops.classList.toggle('darker2');
 });
 
 
@@ -152,5 +152,5 @@ closeapp2.addEventListener('click', function () {
         // so it slides out
     app2description.classList.toggle('slide-in');
     // change the portfolio section
-    portfoliotops.classList.toggle('darker');
+    portfoliotops.classList.toggle('darker2');
 });
