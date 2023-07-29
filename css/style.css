@@ -1507,7 +1507,7 @@
   * body .tabletcontainer #blogtabletcontainer #blogtablet {
     background-color: #146166;
     color: white;
-    height: 105vh;
+    height: 100vh;
   }
   * body .tabletcontainer #blogtabletcontainer #blogtablet .topblogtablet {
     display: flex;
