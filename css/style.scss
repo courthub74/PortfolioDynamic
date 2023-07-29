@@ -181,15 +181,16 @@ $lighterskills: #080e31;
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            border-radius: 10px;
-                            width: 45vw;
-                            height: 45vw;
+                            border: 5px solid $socialsgrey;
+                            border-radius: 50%;
+                            width: 44vw;
+                            height: 44vw;
                             background-color: $portfolios;
                             padding: 1vh;
                             img {
                                 border-radius: 50%;
-                                width: 37vw;
-                                height: 40vw;
+                                width: 43vw;
+                                height: 43vw;
                             }
                         }
                         .nameheadertablet {
@@ -1346,6 +1347,90 @@ $lighterskills: #080e31;
                             ////////////////////////////////////////
                             ////////////////////////////////////////
                             ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            /// END OF APP 1 DESCRIPTION
+                            
+
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            // APP TWO DESCRIPTION
+                            .app-2-description {
+                                // position: fixed;
+                                top: 0;
+                                left: 100%;
+                                width: 100%;
+                                height: 100vh;
+                                display: block;
+                                background-color: $mainblue;
+                                // background-color: yellowgreen;
+                                margin: 4.5vh 0 0 0;
+                                transition: ease-in .8s;
+                                z-index: 98;
+                                .bordertwo {
+                                    border: 4px solid $skillswhite;
+                                    border-radius: 10px;
+                                    margin: 0 auto;
+                                    margin: 10vh 0 0 2.5vw;
+                                    width: 88%;
+                                    height: 80%;
+                                    padding: 2vh;
+                                    .topleveltwo {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        .app2logo {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin: 0 0 0 3vw;
+                                            img {
+                                                width: 36vw;
+                                                height: 8vw;
+                                            }
+                                        }
+                                        .sectiontitle {
+                                            margin: 4vh 5.5vw 0 0;
+                                            // background-color: yellowgreen;
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 5vw;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                } 
+                            }
+
                             /// PORTFOLIO CONTENT HERE
                             .portfoliooutlinetablet {
                                 display: flex;

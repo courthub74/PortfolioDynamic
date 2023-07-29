@@ -111,5 +111,5 @@ closeapp1.addEventListener('click', function () {
     // change the portfolio section
     portfoliotops.classList.toggle('darker');
     // turn on darker 2
-    portfoliotops.classList.toggle('darker2');
+    // portfoliotops.classList.toggle('darker2');
 });
