@@ -154,3 +154,52 @@ closeapp2.addEventListener('click', function () {
     // change the portfolio section
     portfoliotops.classList.toggle('darker2');
 });
+
+
+// APP 3
+
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+
+// BLOG SECTION
+
+// BLOG 1
+
+// query the blog1 button
+const blog1 = document.querySelector('.blogcontent');
+
+// query the slide in blog1
+const blog1slidein = document.querySelector('.blogone-slide-in');
+
+// query the close button
+const closeblog1 = document.querySelector('.closeblog1');
+
+// Blog Top
+const blogtops = document.querySelector('.topblogtablet');
+
+// apply the Event Listener to the app1 button
+blog1.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the blog1 button");
+    // apply an Event Listener to the close button
+        // to toggle the app1description class to off
+    blog1slidein.classList.toggle('slide-in');
+    // darken the header
+    blogtops.classList.toggle('darker');
+});
+
+// apply an Event Listener to the close button
+    // to toggle the app1description class to off
+closeblog1.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the blog1 back arrow button");
+    // toggle the is-active class on the slide in menu to off
+        // so it slides out
+    blog1slidein.classList.toggle('slide-in');
+    // turn on darker 2
+    blogtops.classList.toggle('darker2');
+});
