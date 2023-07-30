@@ -1787,7 +1787,7 @@ $lighterskills: #080e31;
                     #blogtablet {
                         background-color: $skillsteal;
                         color: white;
-                        height: 100vh;
+                        height: 105vh;
                         .topblogtablet {
                             display: flex;
                             .titlemobile {
@@ -2303,22 +2303,23 @@ $lighterskills: #080e31;
                             // overflow-y: scroll;
                             justify-content: center;
                             align-items: center;
-                            margin: 0vh 0 0 0;
+                            margin: 4vh 0 0 0;
+                            gap: 2vh;
                             // background-color: #58a6ff;
-                            padding: 1vh 1vh;
-                            .botblogoutline {
-                                display: flex;
-                                flex-direction: column;
-                                overflow: hidden;
-                                overflow-y: scroll;
-                                justify-content: center;
-                                align-items: center;
-                                margin: 3vh 0 0 0;
-                                gap: 2vh;
-                                width: 80%;
-                                // border: 1px dotted white;
-                                // background-color: #58a6ff;
-                                // padding: 1vh 1vh;
+                            // background-color: #58a6ff;
+                            // padding: 1vh 1vh;
+                            // .botblogoutline {
+                            //     display: flex;
+                            //     flex-direction: column;
+                            //     overflow: hidden;
+                            //     overflow-y: scroll;
+                            //     justify-content: center;
+                            //     align-items: center;
+                            //     margin: 0vh 0 0 0;
+                            //     gap: 2vh;
+                            //     // width: 100%;
+                            //     // height: 100vh;
+                            //     background-color: $skillsteal;
                                 .blogcircles {
                                     background-color: $mainblue;
                                     background-color: $skillsdarker2;
@@ -2359,6 +2360,155 @@ $lighterskills: #080e31;
                                             p {
                                                 font-size: 2vw;
                                                 font-family: 'Inter', sans-serif;
+                                            }
+                                        }
+                                    }
+                                }
+                            // }
+                        }
+                    }
+                }
+                // CONTACT SECTION
+                #contacttabletcontainer {
+                    #contacttablet {
+                        background-color: $mainblue;
+                        color: white;
+                        height: 100vh;
+                        .topcontacttablet {
+                            display: flex;
+                            .titletablet {
+                                margin: 3vh 0 0 5vh;
+                                h1 {
+                                    font-size: 10vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                        .botcontacttablet {
+                            margin: 4vh 0 0 11.5vw;
+                            font-family: 'Inter', sans-serif;
+                            .contactform {
+                                display: flex;
+                                flex-direction: column;
+                                .nameemaildiv {
+                                    display: flex;
+                                    flex-direction: column;
+                                    .name {
+                                        margin: 0 0 5vh -3.8vw;
+                                        p {
+                                            font-size: 4vw;
+                                        }
+                                        input {
+                                            width: 80vw;
+                                            height: 7vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                        }  
+                                    }
+                                    .email {
+                                        margin: 0 0 5vh -3.8vw;
+                                        p {
+                                            font-size: 4vw;
+                                            // color: $hoverfonts;
+                                        }
+                                        input {
+                                            width: 80vw;
+                                            height: 7vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            // background-color: $mainblue;
+                                            // border: 2px solid white;
+                                            // color: white;
+                                        }  
+                                    }
+                                    .message {
+                                        margin: 0 0 5vh -3.8vw;
+                                        p {
+                                            font-size: 4vw;
+                                        }
+                                        input {
+                                            width: 80vw;
+                                            height: 25vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            color: white;
+                                        }  
+                                    }
+                                    .submit {
+                                        margin: 0 0 0 -3.8vw;
+                                        button {
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            color: $skillswhite;
+                                            border-radius: 10px;
+                                            width: 80vw;
+                                            height: 7vh;
+                                            font-size: 4vw;
+                                        }
+                                    }
+                                    .poweredby {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        // background-color: rebeccapurple;
+                                        margin: 5vh 0 0 -20vw;
+                                        color: $skillswhite;
+                                        img {
+                                            width: 4vw;
+                                            height: 4vw;
+                                            color: $portfolios;
+                                            margin: 0 1vw 0 0;
+                                        }
+                                        small {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: .5vh;
+                                            .tabletsocials {
+                                                // margin: 0 -3vw 0 0;
+                                                // background-color: rebeccapurple;
+                                                a {
+                                                    // padding: 2vh 2vh;
+                                                    #github {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                    #linkedin {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                    #twitter {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                    #instagram {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                }
+                                            }
+                                            .copyrights {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                gap: .5vw;
+                                                // padding: 0 0 0 6vw;
+                                                // margin: 0 4vw 0 0;
+                                                p {
+                                                    color: $socialsgrey;
+                                                    font-size: 2.5vw;
+                                                    
+                                                }
+                                                a {
+                                                    color: $firstblue;
+                                                    font-size: 2.5vw;
+                                                }
                                             }
                                         }
                                     }
