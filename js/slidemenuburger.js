@@ -203,3 +203,38 @@ closeblog1.addEventListener('click', function () {
     // turn on darker 2
     blogtops.classList.toggle('darker2');
 });
+
+
+// BLOG 2
+// query the blog1 button
+// const blog2 = document.querySelector('.blogcontent');
+const blog2 = document.getElementById('blogbutton2');
+
+// query the slide in blog1
+const blog2slidein = document.querySelector('.blogtwo-slide-in');
+
+// query the close button
+const closeblog2 = document.querySelector('.closeblog2');
+
+// apply the Event Listener to the app1 button
+blog2.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the blog2 button");
+    // apply an Event Listener to the close button
+        // to toggle the app1description class to off
+    blog2slidein.classList.toggle('slide-in');
+    // darken the header
+    blogtops.classList.toggle('darker');
+});
+
+// apply an Event Listener to the close button
+    // to toggle the app1description class to off
+closeblog2.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the blog2 back arrow button");
+    // toggle the is-active class on the slide in menu to off
+        // so it slides out
+    blog2slidein.classList.toggle('slide-in');
+    // turn on darker 2
+    blogtops.classList.toggle('darker2');
+});
