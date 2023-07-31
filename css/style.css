@@ -1992,7 +1992,7 @@
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .name input {
     width: 80vw;
-    height: 7vh;
+    height: 6vh;
     border: none;
     border-radius: 5px;
     background-color: #36395D;
@@ -2000,6 +2000,9 @@
     color: white;
     font-size: 3vw;
     text-align: center;
+  }
+  * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .name input:focus {
+    outline: none;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .email {
     margin: 0 0 5vh -3.8vw;
@@ -2009,7 +2012,7 @@
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .email input {
     width: 80vw;
-    height: 7vh;
+    height: 6vh;
     border: none;
     border-radius: 5px;
     background-color: #36395D;
@@ -2022,14 +2025,14 @@
     outline: none;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message {
-    margin: 0 0 5vh -3.8vw;
+    margin: 0 0 4vh -3.8vw;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message p {
     font-size: 4vw;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message textarea {
     width: 80vw;
-    height: 25vh;
+    height: 23vh;
     border: none;
     border-radius: 5px;
     background-color: #36395D;
@@ -2041,6 +2044,7 @@
     margin: 8px 0 0 0;
     font-family: "Inter", sans-serif;
     padding: 100px;
+    resize: none;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message textarea:focus {
     outline: none;
@@ -2054,14 +2058,14 @@
     color: #FFFFFF;
     border-radius: 10px;
     width: 80vw;
-    height: 7vh;
-    font-size: 4vw;
+    height: 5vh;
+    font-size: 3.5vw;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5vh 0 0 -20vw;
+    margin: 2vh 0 0 -20vw;
     color: #FFFFFF;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby img {
@@ -2074,7 +2078,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5vh;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .tabletsocials {
+    margin: 2vh 0 0 5vw;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .tabletsocials a #github {
     width: 6vw;
@@ -2097,6 +2105,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5vw;
+    margin: 1vh 0 0 4vw;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .copyrights p {
     color: #B7BCD6;

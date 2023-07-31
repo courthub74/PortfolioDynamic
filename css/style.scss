@@ -2400,7 +2400,7 @@ $lighterskills: #080e31;
                                         }
                                         input {
                                             width: 80vw;
-                                            height: 7vh;
+                                            height: 6vh;
                                             border: none;
                                             border-radius: 5px;
                                             background-color: $portfolios;
@@ -2408,6 +2408,9 @@ $lighterskills: #080e31;
                                             color: white;
                                             font-size: 3vw;
                                             text-align: center;
+                                        }
+                                        input:focus {
+                                            outline: none;
                                         }  
                                     }
                                     .email {
@@ -2418,7 +2421,7 @@ $lighterskills: #080e31;
                                         }
                                         input {
                                             width: 80vw;
-                                            height: 7vh;
+                                            height: 6vh;
                                             border: none;
                                             border-radius: 5px;
                                             background-color: $portfolios;
@@ -2435,13 +2438,13 @@ $lighterskills: #080e31;
                                         }  
                                     }
                                     .message {
-                                        margin: 0 0 5vh -3.8vw;
+                                        margin: 0 0 4vh -3.8vw;
                                         p {
                                             font-size: 4vw;
                                         }
                                         textarea {
                                             width: 80vw;
-                                            height: 25vh;
+                                            height: 23vh;
                                             border: none;
                                             border-radius: 5px;
                                             background-color: $portfolios;
@@ -2453,6 +2456,7 @@ $lighterskills: #080e31;
                                             margin: 8px 0 0 0;
                                             font-family: 'Inter', sans-serif;
                                             padding: 100px;
+                                            resize: none;
                                         }
                                         textarea:focus {
                                             outline: none;
@@ -2466,8 +2470,8 @@ $lighterskills: #080e31;
                                             color: $skillswhite;
                                             border-radius: 10px;
                                             width: 80vw;
-                                            height: 7vh;
-                                            font-size: 4vw;
+                                            height: 5vh;
+                                            font-size: 3.5vw;
                                         }
                                     }
                                     .poweredby {
@@ -2475,7 +2479,7 @@ $lighterskills: #080e31;
                                         justify-content: center;
                                         align-items: center;
                                         // background-color: rebeccapurple;
-                                        margin: 5vh 0 0 -20vw;
+                                        margin: 2vh 0 0 -20vw;
                                         color: $skillswhite;
                                         img {
                                             width: 4vw;
@@ -2487,9 +2491,10 @@ $lighterskills: #080e31;
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
-                                            gap: .5vh;
+                                            flex-direction: column;
+                                            gap: 2vh;
                                             .tabletsocials {
-                                                // margin: 0 -3vw 0 0;
+                                                margin: 2vh 0 0 5vw;
                                                 // background-color: rebeccapurple;
                                                 a {
                                                     // padding: 2vh 2vh;
@@ -2517,7 +2522,7 @@ $lighterskills: #080e31;
                                                 align-items: center;
                                                 gap: .5vw;
                                                 // padding: 0 0 0 6vw;
-                                                // margin: 0 4vw 0 0;
+                                                margin: 1vh 0 0 4vw;
                                                 p {
                                                     color: $socialsgrey;
                                                     font-size: 2.5vw;
