@@ -2405,6 +2405,9 @@ $lighterskills: #080e31;
                                             border-radius: 5px;
                                             background-color: $portfolios;
                                             border: 1px solid $portfolios;
+                                            color: white;
+                                            font-size: 3vw;
+                                            text-align: center;
                                         }  
                                     }
                                     .email {
@@ -2420,9 +2423,15 @@ $lighterskills: #080e31;
                                             border-radius: 5px;
                                             background-color: $portfolios;
                                             border: 1px solid $portfolios;
+                                            color: white;
+                                            font-size: 3vw;
+                                            text-align: center;
                                             // background-color: $mainblue;
                                             // border: 2px solid white;
                                             // color: white;
+                                        }
+                                        input:focus {
+                                            outline: none;
                                         }  
                                     }
                                     .message {
@@ -2430,7 +2439,7 @@ $lighterskills: #080e31;
                                         p {
                                             font-size: 4vw;
                                         }
-                                        input {
+                                        textarea {
                                             width: 80vw;
                                             height: 25vh;
                                             border: none;
@@ -2438,7 +2447,16 @@ $lighterskills: #080e31;
                                             background-color: $portfolios;
                                             border: 1px solid $portfolios;
                                             color: white;
-                                        }  
+                                            font-size: 3vw;
+                                            text-align: center;
+                                            box-sizing: border-box;
+                                            margin: 8px 0 0 0;
+                                            font-family: 'Inter', sans-serif;
+                                            padding: 100px;
+                                        }
+                                        textarea:focus {
+                                            outline: none;
+                                        }
                                     }
                                     .submit {
                                         margin: 0 0 0 -3.8vw;

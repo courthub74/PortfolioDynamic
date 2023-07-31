@@ -1997,6 +1997,9 @@
     border-radius: 5px;
     background-color: #36395D;
     border: 1px solid #36395D;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .email {
     margin: 0 0 5vh -3.8vw;
@@ -2011,6 +2014,12 @@
     border-radius: 5px;
     background-color: #36395D;
     border: 1px solid #36395D;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+  }
+  * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .email input:focus {
+    outline: none;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message {
     margin: 0 0 5vh -3.8vw;
@@ -2018,7 +2027,7 @@
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message p {
     font-size: 4vw;
   }
-  * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message input {
+  * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message textarea {
     width: 80vw;
     height: 25vh;
     border: none;
@@ -2026,6 +2035,15 @@
     background-color: #36395D;
     border: 1px solid #36395D;
     color: white;
+    font-size: 3vw;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 8px 0 0 0;
+    font-family: "Inter", sans-serif;
+    padding: 100px;
+  }
+  * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message textarea:focus {
+    outline: none;
   }
   * body .tabletcontainer #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .submit {
     margin: 0 0 0 -3.8vw;
