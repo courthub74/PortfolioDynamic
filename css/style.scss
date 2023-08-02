@@ -50,10 +50,13 @@ $lighterskills: #080e31;
         scroll-snap-type: y mandatory;
         body {
             background-color: $smallsgrey;
+            // overflow: hidden;
+            //    position: fixed;
+            //    opacity: .1;
             #mobilecontainer {
                 display: none;
             }
-            #tabletcontainer {
+            .tabletcontainer {
                 #tablethome {
                     background-color: $mainblue;
                     color: white;
@@ -76,11 +79,11 @@ $lighterskills: #080e31;
                             border: 1px solid $portfolios;
                             border-radius: 40px;
                             background-color: $portfolios;
-                            // width: 20vw;
-                            // height: 6vh;
                             width: 20vw;
-                            height: 20vw;
-                            border-radius: 50%;
+                            height: 6vh;
+                            // width: 20vw;
+                            // height: 20vw;
+                            // border-radius: 50%;
                             margin: 1vh 7vw 0 0;
                             // margin: 2vh 0 0 35vw;
                             .tabletburger {
@@ -178,15 +181,17 @@ $lighterskills: #080e31;
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            border-radius: 10px;
-                            width: 45vw;
-                            height: 45vw;
-                            background-color: $portfolios;
+                            // border: 5px solid $socialsgrey;
+                            border-radius: 50%;
+                            width: 42vw;
+                            height: 42vw;
+                            // background-color: $portfolios;
+                            background-color: $socialsgrey;
                             padding: 1vh;
                             img {
                                 border-radius: 50%;
-                                width: 37vw;
-                                height: 40vw;
+                                width: 42vw;
+                                height: 42vw;
                             }
                         }
                         .nameheadertablet {
@@ -352,8 +357,10 @@ $lighterskills: #080e31;
                                         height: 7vw;
                                     }
                                     p {
-                                        color: white;
+                                        // color: white;
+                                        color: $skillses;
                                         font-size: 2.5vw;
+                                        opacity: .7;
                                         // font-weight: bold;
                                         font-family: 'Roboto', sans-serif;
                                     }
@@ -378,7 +385,9 @@ $lighterskills: #080e31;
                                     }
                                     p {
                                         color: white;
+                                        color: $skillses;
                                         font-size: 2.5vw;
+                                        opacity: .7;
                                         font-family: 'Roboto', sans-serif;
                                     }
                                 }
@@ -402,7 +411,9 @@ $lighterskills: #080e31;
                                     }
                                     p {
                                         color: white;
+                                        color: $skillses;
                                         font-size: 2.5vw;
+                                        opacity: .7;
                                         font-family: 'Roboto', sans-serif;
                                     }
                                 }
@@ -426,7 +437,7 @@ $lighterskills: #080e31;
                                         // margin: 2vh 4vw 0 0;
                                         margin: 2vh 0 0 0;
                                         width: 80vw;
-                                        height: 2vh;
+                                        height: 1vh;
                                         background-color: $mainblue;
                                         border: none;
                                         box-shadow: 3px 3px 5px $boxshadowcircles;
@@ -471,7 +482,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             text-align: center;
                                             font-family: 'Roboto', sans-serif;
                                         }
@@ -496,7 +509,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -520,7 +535,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -541,7 +558,7 @@ $lighterskills: #080e31;
                                     .userinterfacelinetablet {
                                         margin: 0 0 0 0vw;
                                         width: 80vw;
-                                        height: 2vh;
+                                        height: 1vh;
                                         background-color: $mainblue;
                                         border: none;
                                         box-shadow: 3px 3px 5px $boxshadowcircles;
@@ -587,7 +604,9 @@ $lighterskills: #080e31;
                                     }
                                     p {
                                         color: white;
+                                        color: $skillses;
                                         font-size: 2.5vw;
+                                        opacity: .7;
                                         font-family: 'Roboto', sans-serif;
                                     }
                                 }
@@ -612,7 +631,9 @@ $lighterskills: #080e31;
                                     }
                                     p {
                                         color: white;
+                                        color: $skillses;
                                         font-size: 2.5vw;
+                                        opacity: .7;
                                         font-family: 'Roboto', sans-serif;
                                     }
                                 }
@@ -637,7 +658,9 @@ $lighterskills: #080e31;
                                     }
                                     p {
                                         color: white;
+                                        color: $skillses;
                                         font-size: 2.5vw;
+                                        opacity: .7;
                                         font-family: 'Roboto', sans-serif;
                                     }
                                 }
@@ -659,7 +682,7 @@ $lighterskills: #080e31;
                                         // margin: 8vh 3vw 0 0;
                                         margin: 8vh 0 0 0;
                                         width: 80vw;
-                                        height: 2vh;
+                                        height: 1vh;
                                         background-color: $mainblue;
                                         border: none;
                                         box-shadow: 3px 3px 5px $boxshadowcircles;
@@ -702,7 +725,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -727,7 +752,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -752,7 +779,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -775,7 +804,7 @@ $lighterskills: #080e31;
                                             // margin: 8vh 2vw 0 0vw;
                                             margin: 2vh 0 0 0vw;
                                             width: 80vw;
-                                            height: 2vh;
+                                            height: 1vh;
                                             background-color: $mainblue;
                                             border: none;
                                             box-shadow: 3px 3px 5px $boxshadowcircles;
@@ -815,7 +844,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -840,7 +871,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -865,7 +898,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -887,7 +922,7 @@ $lighterskills: #080e31;
                                             // margin: 6vh 2vw 0 0;
                                             margin: 2vh 0 0 0;
                                             width: 80vw;
-                                            height: 2vh;
+                                            height: 1vh;
                                             background-color: $mainblue;
                                             border: none;
                                             box-shadow: 3px 3px 5px $boxshadowcircles;
@@ -926,7 +961,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -950,7 +987,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                             text-align: center;
                                         }
@@ -975,7 +1014,9 @@ $lighterskills: #080e31;
                                         }
                                         p {
                                             color: white;
+                                            color: $skillses;
                                             font-size: 2.5vw;
+                                            opacity: .7;
                                             font-family: 'Roboto', sans-serif;
                                         }
                                     }
@@ -999,7 +1040,7 @@ $lighterskills: #080e31;
                                     // margin: 8vh 1vw 0 0;
                                     margin: 2vh 0 0 0;
                                     width: 80vw;
-                                    height: 2vh;
+                                    height: 1vh;
                                     background-color: $mainblue;
                                     border: none;
                                     box-shadow: 3px 3px 5px $boxshadowcircles;
@@ -1014,7 +1055,8 @@ $lighterskills: #080e31;
                     #portfoliotabletdiv {
                         background-color: $mainblue;
                         color: white;
-                        height: 105vh;
+                        height: 100vh;
+                        // position: fixed;
                         .topportfoliotablet {
                             display: flex;
                             .titlemobile {
@@ -1024,6 +1066,16 @@ $lighterskills: #080e31;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
+                        }
+                        .topportfoliotablet.darker {
+                            opacity: 0;
+                            transition: all .8s;
+                            color: $mainblue;
+                        }
+                        .topportfoliotablet.darker2 {
+                            opacity: 1;
+                            transition: 1.5s;
+                            color: white;
                         }
                         .botportfoliomobile {
                             display: flex;
@@ -1068,13 +1120,14 @@ $lighterskills: #080e31;
                                 display: block;
                                 background-color: $mainblue;
                                 // background-color: yellowgreen;
-                                margin: 4.5vh 0 0 0;
+                                margin: -5vh 0 0 0;
                                 transition: ease-in .8s;
                                 z-index: 98;
                                 .border {
                                     border: 4px solid $skillswhite;
                                     border-radius: 10px;
                                     margin: 0 auto;
+                                    margin: 10vh 0 0 2.5vw;
                                     width: 88%;
                                     height: 80%;
                                     padding: 2vh;
@@ -1295,6 +1348,280 @@ $lighterskills: #080e31;
                             ////////////////////////////////////////
                             ////////////////////////////////////////
                             ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            ////////////////////////////////////////
+                            /// END OF APP 1 DESCRIPTION
+                            
+
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            ////////////////////// 
+                            // APP TWO DESCRIPTION
+                            .app-2-description {
+                                position: fixed;
+                                top: 0;
+                                left: 100%;
+                                width: 100%;
+                                height: 100vh;
+                                display: block;
+                                background-color: $mainblue;
+                                // background-color: yellowgreen;
+                                margin: -7vh 0 0 0;
+                                transition: ease-in .8s;
+                                z-index: 98;
+                                .bordertwo {
+                                    border: 4px solid $skillswhite;
+                                    border-radius: 10px;
+                                    margin: 0 auto;
+                                    margin: 12vh 0 0 2.5vw;
+                                    width: 88%;
+                                    height: 78%;
+                                    padding: 2vh;
+                                    .topleveltwo {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        .app2logo {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin: 2.5vh 0 0 3vw;
+                                            img {
+                                                width: 35vw;
+                                                height: 6vw;
+                                            }
+                                        }
+                                        .sectiontitle {
+                                            margin: 2vh 5.5vw 0 0;
+                                            // background-color: yellowgreen;
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 5vw;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                    .app2content {
+                                        .app2description {
+                                            font-family: 'Inter', sans-serif;
+                                            text-align: left;
+                                            font-size: 2.5vw;
+                                            margin: 8vh 0 0 0;
+                                            padding-left: 3vw;
+                                        }
+                                        .apptechnologiestwo {
+                                            margin: 5vh 0 0 2.5vw;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            h3 {
+                                                font-size: 3vw;
+                                            }
+                                            .apptechcirclestwo {
+                                                display: flex;
+                                                margin: 2vh 0 0 -1vw;
+                                                font-family: 'Inter', sans-serif;
+                                                gap: 4vw;
+                                                .apptechcircletwo {
+                                                    border: 1px solid $techcirclegreen;
+                                                    background-color: $techcirclegreen;
+                                                    border-radius: 50%;
+                                                    width: 18vw;
+                                                    height: 18vw;
+                                                    #react {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: .5vh;
+                                                        height: 100%;
+                                                        img {
+                                                            width: 8vw;
+                                                            height: 8vw;
+                                                        }
+                                                        p {
+                                                            font-family: 'Inter', sans-serif;
+                                                            font-size: .8em;
+                                                            color: $hoverfonts;
+                                                        }
+                                                    }
+                                                    #express {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: 1vh;
+                                                        height: 100%;
+                                                        img {
+                                                            width: 7vw;
+                                                            height: 7vw;
+                                                        }
+                                                        p {
+                                                            font-family: 'Inter', sans-serif;
+                                                            font-size: .8em;
+                                                            color: $hoverfonts;
+                                                        }
+                                                    }
+                                                    #mongo {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: .3vh;
+                                                        height: 100%;
+                                                        
+                                                        img {
+                                                            // margin-top: -.2vh;
+                                                            width: 8.5vw;
+                                                            height: 8.5vw;
+                                                        }
+                                                        p {
+                                                            font-family: 'Inter', sans-serif;
+                                                            font-size: .8em;
+                                                            color: $hoverfonts;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .accomplishmentstwo {
+                                            margin: 4vh 0 0 0;
+                                            h3 {
+                                                font-family: 'Inter', sans-serif;
+                                                margin: 0 0 1vh 0;
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 2.5vw;
+                                                line-height: 3.5vh;
+                                            }
+                                        }
+                                        .linkstwo {
+                                            margin: 3vh 0 0 .1vw;
+                                            display: flex;
+                                            gap: 5vw;
+                                            .linkto {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border: $hoverfonts 1px solid;
+                                                border-radius: 50%;
+                                                background-color: $skillswhite;
+                                                background-color: $skillswhite;
+                                                width: 8vw;
+                                                height: 8vw;
+                                                a {
+                                                    margin: .5vh 0 0 0;
+                                                    img {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                }
+                                                p {
+                                                    font-family: 'Inter', sans-serif;
+                                                    font-size: 3vw;
+                                                    font-weight: bold;
+                                                    color: $techcirclegreen;
+                                                }
+                                            }
+                                            .github {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border: $hoverfonts 1px solid;
+                                                border-radius: 50%;
+                                                background-color: $skillswhite;
+                                                // background-color: $hoverfonts;
+                                                width: 8vw;
+                                                height: 8vw;
+                                                a {
+                                                    margin: .5vh 0 0 0;
+                                                    img {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                }
+                                                p {
+                                                    font-family: 'Inter', sans-serif;
+                                                    font-size: 3vw;
+                                                    font-weight: bold;
+                                                    margin: 0 0 0 0;
+                                                    color: $techcirclegreen;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                // Close Button
+                                .closeapp2 {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 3vh 0 0 0;
+                                    // background-color: #05607D;
+                                    .back_arrow_two {
+                                        background-color: $mainblue;
+                                        color: white;
+                                        border: none;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        font-weight: bold;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        img {
+                                            width: 4vw;
+                                            height: 4vw;
+                                        }
+                                    }
+                                } 
+                            }
+                            .app-2-description.slide-in {
+                                left: 0;
+                            }
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            ///////////////////////////////////////////////
+                            /// 
+                            /// APP 3 DESCRIPTION
+                            
                             /// PORTFOLIO CONTENT HERE
                             .portfoliooutlinetablet {
                                 display: flex;
@@ -1352,8 +1679,861 @@ $lighterskills: #080e31;
                                     margin: 0 0 0 0;
                                     width: 100%;
                                     img {
-                                        width: 28vw;
-                                        height: 28vw;
+                                        width: 30vw;
+                                        height: 30vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // EXPERIENCE SECTION
+                #experiencetabletcontainer {
+                    #experiencetablet {
+                        background-color: $aboutgreen;
+                        color: white;
+                        height: 100vh;
+                        .topexperiencetablet {
+                            display: flex;
+                            .titletablet {
+                                margin: 4vh 0 0 5vh;
+                                h1 {
+                                    font-size: 9vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                        .botexperiencetablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .places {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5vh;
+                                margin: 5vh 0 0 0;
+                                .courdevs {
+                                    display: flex;
+                                    flex-direction: column;
+                                    border: 1px solid $experiencegreenbutton;
+                                    background-color: $experiencegreenbutton;
+                                    border-radius: 12px;
+                                    padding: 8vw;
+                                    width: 33vw;
+                                    height: 33vw;
+                                    margin: 0 0 0 5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 2vw;
+                                    img {
+                                        margin: -2vh 0 0 3vw;
+                                        width: 27vw;
+                                        height: 27vw;
+                                    }
+                                    .jobdeets {
+                                        margin: 3vh 0 0 0;
+                                        h4 {
+                                            font-size: 3vw;
+                                        }
+                                        p {
+                                            font-size: 2.5vw;
+                                        }
+                                    }
+                                }
+                                .slea {
+                                    display: flex;
+                                    flex-direction: column;
+                                    border: 1px solid $experiencegreenbutton;
+                                    background-color: $experiencegreenbutton;
+                                    border-radius: 12px;
+                                    padding: 8vw;
+                                    width: 33vw;
+                                    height: 33vw;
+                                    margin: 0 0 0 5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 2vw;
+                                    img {
+                                        margin: 0vh 0 0 6vw;
+                                        width: 21vw;
+                                        height: 24vw;
+                                    }
+                                    .jobdeets {
+                                        margin: 6vh 0 0 0;
+                                        h4 {
+                                            font-size: 3vw;
+                                        }
+                                        p {
+                                            font-size: 2.5vw;
+                                        }
+                                    }
+                                }
+                            }
+                            // Education
+                            .education {
+                                display: flex;
+                                // background-color: yellow;
+                                width: 100%;
+                                h3 {
+                                    margin: 4vh 0 0 5vh;
+                                    font-size: 7vw;
+                                    font-family: 'Inter', sans-serif;  
+                                }
+                            }
+                        }
+                    }
+                }
+                // BLOG SECTION
+                #blogtabletcontainer {
+                    #blogtablet {
+                        background-color: $skillsteal;
+                        color: white;
+                        height: 105vh;
+                        .topblogtablet {
+                            display: flex;
+                            .titlemobile {
+                                margin: 3vh 0 0 5vh;
+                                h1 {
+                                    font-size: 10vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                        .topblogtablet.darker {
+                            opacity: 0;
+                            transition: all .8s;
+                            color: $skillsteal;
+                        }
+                        .topblogtablet.darker2 {
+                            opacity: 1;
+                            transition: 1.5s;
+                            color: white;
+                        }
+                        // Blog Slide in Here
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        // BLOG ONE SLIDE-IN
+                        .blogone-slide-in {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $skillsteal;
+                            // background-color: yellowgreen;
+                            margin: 4.5vh 0 0 0;
+                            // margin: -8vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .blogone-border {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                overflow: hidden;
+                                .blogcircle {
+                                    .blogoneheader {
+                                        display: flex;
+                                        .blogonetitle {
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 50%;
+                                            width: 40vw;
+                                            height: 40vw;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            box-shadow: 2px 2px 5px $boxshadowcircles;
+                                            .outertitle {
+                                                border: 3px solid $mainblue;
+                                                background-color: $skillsdarker2;
+                                                border-radius: 50%;
+                                                width: 40vw;
+                                                height: 40vw;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                .innertitle {
+                                                    background-color: $mainblue;
+                                                    border-radius: 50%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    width: 37vw;
+                                                    height: 38vw;
+                                                    h1 {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: 3vw;
+                                                        padding: 0 0 0 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .sectiontitle {
+                                            margin: 4vh 0 0 23vw;
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 6vw;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                    .author {
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 27vw;
+                                        height: 27vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: -15vh 0 0 45vw;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            text-align: center;
+                                        }
+                                    }
+                                    .date {
+                                        border: 3px solid $skillsdarker2;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        margin: 0vh 0 0 5vw;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        .nums {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.3vw;
+                                            text-align: center;
+                                        }
+                                        .times {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2vw;
+                                            text-align: center;
+                                        }
+                                    }
+                                    .bogoneoutline {
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        padding: 2vh;
+                                        border-radius: 50%;
+                                        width: 75vw;
+                                        height: 75vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        overflow: auto;
+                                        margin: -10vh 0 0 30vw;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        .blogonecontent {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            text-align: center;
+                                            width: 50%;
+                                            margin: -7vh 10vw 0 0;
+                                            line-height: 2vh;
+                                            overflow-y: scroll;
+                                        }
+                                    }
+                                    .blogonesharescircle {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 2vw;
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 25vw;
+                                        height: 25vw;
+                                        margin: -30vh 0 0 0;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        .blogoneshares {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vw;
+                                            margin: 1vh 0 0 0;
+                                            a {
+                                                #twitter {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #linkedin {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #share {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                    margin: -1vh 0 0 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .blogonearrow {
+                                margin: 3vh 0 0 40vw;
+                                button {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-decoration: none;
+                                    background-color: $skillsteal;
+                                    border: none;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                    p {
+                                        color: $skillswhite;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                        .blogone-slide-in.slide-in {
+                            left: 0;
+                        }
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        //////////////////////
+                        /// BLOG ONE SLIDE IN END
+                        /// 
+                        /// 
+                        /// 
+                        
+
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        // BLOG TWO SLIDE-IN
+                        .blogtwo-slide-in {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $skillsteal;
+                            // background-color: yellowgreen;
+                            margin: 4.5vh 0 0 0;
+                            // margin: -8vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .blogtwo-border {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                overflow: hidden;
+                                .blogcircle {
+                                    .blogtwoheader {
+                                        display: flex;
+                                        .blogtwotitle {
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 50%;
+                                            width: 40vw;
+                                            height: 40vw;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            box-shadow: 2px 2px 5px $boxshadowcircles;
+                                            .outertitle {
+                                                border: 3px solid $mainblue;
+                                                background-color: $skillsdarker2;
+                                                border-radius: 50%;
+                                                width: 40vw;
+                                                height: 40vw;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                .innertitle {
+                                                    background-color: $mainblue;
+                                                    border-radius: 50%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    width: 37vw;
+                                                    height: 38vw;
+                                                    h1 {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: 3vw;
+                                                        padding: 0 0 0 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .sectiontitle {
+                                            margin: 4vh 0 0 23vw;
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 6vw;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                    .author {
+                                        border: 1px solid $mainblue;
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 27vw;
+                                        height: 27vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: -15vh 0 0 45vw;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            text-align: center;
+                                        }
+                                    }
+                                    .date {
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        border: 1px solid $mainblue;
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        margin: 0vh 0 0 5vw;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        .nums {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.3vw;
+                                            text-align: center;
+                                        }
+                                        .times {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2vw;
+                                            text-align: center;
+                                        }
+                                    }
+                                    .blogtwooutline {
+                                        border: 1px solid $mainblue;
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        padding: 2vh;
+                                        border-radius: 50%;
+                                        width: 75vw;
+                                        height: 75vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        overflow: auto;
+                                        margin: -10vh 0 0 30vw;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        .blogtwocontent {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            text-align: center;
+                                            width: 50%;
+                                            margin: -7vh 10vw 0 0;
+                                            line-height: 2vh;
+                                            overflow-y: scroll;
+                                        }
+                                    }
+                                    .blogtwosharescircle {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 2vw;
+                                        border: 1px solid $mainblue;
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 25vw;
+                                        height: 25vw;
+                                        margin: -30vh 0 0 0;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        .blogoneshares {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vw;
+                                            margin: 1vh 0 0 0;
+                                            a {
+                                                #twitter {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #linkedin {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #share {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                    margin: -1vh 0 0 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            // Back Button
+                            .blogonearrow {
+                                margin: 3vh 0 0 40vw;
+                                button {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-decoration: none;
+                                    background-color: $skillsteal;
+                                    border: none;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                    p {
+                                        color: $skillswhite;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                        .blogtwo-slide-in.slide-in {
+                            left: 0;
+                        }
+
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        //////////////////////
+                        /// BLOG TWO SLIDE IN END
+                        /// 
+                        
+
+
+                        #botblogtablet {
+                            display: flex;
+                            flex-direction: column;
+                            // overflow: hidden;
+                            // overflow-y: scroll;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 4vh 0 0 0;
+                            gap: 2vh;
+                            // background-color: #58a6ff;
+                            // background-color: #58a6ff;
+                            // padding: 1vh 1vh;
+                            // .botblogoutline {
+                            //     display: flex;
+                            //     flex-direction: column;
+                            //     overflow: hidden;
+                            //     overflow-y: scroll;
+                            //     justify-content: center;
+                            //     align-items: center;
+                            //     margin: 0vh 0 0 0;
+                            //     gap: 2vh;
+                            //     // width: 100%;
+                            //     // height: 100vh;
+                            //     background-color: $skillsteal;
+                                .blogcircles {
+                                    background-color: $mainblue;
+                                    background-color: $skillsdarker2;
+                                    border: 2px solid $mainblue;
+                                    border-radius: 50%;
+                                    width: 35vw;
+                                    height: 35vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 1vw;
+                                    box-shadow: 3px 3px 5px $boxshadowcircles;
+                                    .blogcontent {
+                                        border: 3px solid $mainblue;
+                                        border-radius: 50%;
+                                        background-color: $mainblue;
+                                        // background-color: #023430;
+                                        width: 40vw;
+                                        height: 35vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        padding: 2vh;
+                                        .blogcircle {
+                                            text-decoration: none;
+                                            background-color: $mainblue;
+                                            // background-color: #146166;
+                                            color: white;
+                                            border: none;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: right;
+                                            gap: 1vh;
+                                            h2 {
+                                                font-size: 3vw;
+                                                font-family: 'Inter', sans-serif;
+                                            }
+                                            p {
+                                                font-size: 2vw;
+                                                font-family: 'Inter', sans-serif;
+                                            }
+                                        }
+                                    }
+                                }
+                            // }
+                        }
+                    }
+                }
+                // CONTACT SECTION
+                #contacttabletcontainer {
+                    #contacttablet {
+                        background-color: $mainblue;
+                        color: white;
+                        height: 100vh;
+                        .topcontacttablet {
+                            display: flex;
+                            .titletablet {
+                                margin: 3vh 0 0 5vh;
+                                h1 {
+                                    font-size: 10vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                        .botcontacttablet {
+                            margin: 4vh 0 0 11.5vw;
+                            font-family: 'Inter', sans-serif;
+                            .contactform {
+                                display: flex;
+                                flex-direction: column;
+                                .nameemaildiv {
+                                    display: flex;
+                                    flex-direction: column;
+                                    .name {
+                                        margin: 0 0 5vh -3.8vw;
+                                        p {
+                                            font-size: 4vw;
+                                        }
+                                        input {
+                                            width: 80vw;
+                                            height: 6vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            color: white;
+                                            font-size: 3vw;
+                                            text-align: center;
+                                        }
+                                        input:focus {
+                                            outline: none;
+                                        }  
+                                    }
+                                    .email {
+                                        margin: 0 0 5vh -3.8vw;
+                                        p {
+                                            font-size: 4vw;
+                                            // color: $hoverfonts;
+                                        }
+                                        input {
+                                            width: 80vw;
+                                            height: 6vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            color: white;
+                                            font-size: 3vw;
+                                            text-align: center;
+                                            // background-color: $mainblue;
+                                            // border: 2px solid white;
+                                            // color: white;
+                                        }
+                                        input:focus {
+                                            outline: none;
+                                        }  
+                                    }
+                                    .message {
+                                        margin: 0 0 4vh -3.8vw;
+                                        p {
+                                            font-size: 4vw;
+                                        }
+                                        textarea {
+                                            width: 80vw;
+                                            height: 23vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            color: white;
+                                            font-size: 3vw;
+                                            text-align: center;
+                                            box-sizing: border-box;
+                                            margin: 8px 0 0 0;
+                                            font-family: 'Inter', sans-serif;
+                                            padding: 100px;
+                                            resize: none;
+                                        }
+                                        textarea:focus {
+                                            outline: none;
+                                        }
+                                    }
+                                    .submit {
+                                        margin: 0 0 0 -3.8vw;
+                                        button {
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            color: $skillswhite;
+                                            border-radius: 10px;
+                                            width: 80vw;
+                                            height: 5vh;
+                                            font-size: 3.5vw;
+                                        }
+                                    }
+                                    .poweredby {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        // background-color: rebeccapurple;
+                                        margin: 2vh 0 0 -20vw;
+                                        color: $skillswhite;
+                                        img {
+                                            width: 4vw;
+                                            height: 4vw;
+                                            color: $portfolios;
+                                            margin: 0 1vw 0 0;
+                                        }
+                                        small {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            flex-direction: column;
+                                            gap: 2vh;
+                                            .tabletsocials {
+                                                margin: 2vh 0 0 5vw;
+                                                // background-color: rebeccapurple;
+                                                a {
+                                                    // padding: 2vh 2vh;
+                                                    #github {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                    #linkedin {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                    #twitter {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                    #instagram {
+                                                        width: 6vw;
+                                                        height: 6vw;
+                                                    }
+                                                }
+                                            }
+                                            .copyrights {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                gap: .5vw;
+                                                // padding: 0 0 0 6vw;
+                                                margin: 1vh 0 0 4vw;
+                                                p {
+                                                    color: $socialsgrey;
+                                                    font-size: 2.5vw;
+                                                    
+                                                }
+                                                a {
+                                                    color: $firstblue;
+                                                    font-size: 2.5vw;
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -1361,6 +2541,10 @@ $lighterskills: #080e31;
                     }
                 }
             }
+        }
+        body.no-scroll {
+            overflow: hidden;
+            position: fixed;
         }
     }
 }
