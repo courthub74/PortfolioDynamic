@@ -1145,7 +1145,7 @@
     top: 0;
     left: 100%;
     width: 100%;
-    height: 100vh;
+    height: 103vh;
     display: block;
     background-color: #080E2F;
     margin: -7vh 0 0 0;
@@ -2115,8 +2115,7 @@
     color: #58a6ff;
     font-size: 2.5vw;
   }
-  * body.no-scroll {
+  * .body.no-scroll {
     overflow: hidden;
-    position: fixed;
   }
 }/*# sourceMappingURL=style.css.map */

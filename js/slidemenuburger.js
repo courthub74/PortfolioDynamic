@@ -100,6 +100,8 @@ app1.addEventListener('click', function () {
     portfoliotops.classList.toggle('darker');
     // test print
     console.log(portfoliotops);
+    // Remove the Scroll from the body
+    bodybody.classList.toggle('no-scroll');
 });
 
 
@@ -115,6 +117,8 @@ closeapp1.addEventListener('click', function () {
     // portfoliotops.classList.toggle('darker');
     // turn on darker 2
     portfoliotops.classList.toggle('darker2');
+    // Turn Scroll back on
+    bodybody.classList.toggle('no-scroll');
 });
 
 
@@ -140,6 +144,8 @@ app2.addEventListener('click', function () {
     app2description.classList.toggle('slide-in');
     // change the portfolio section
     portfoliotops.classList.toggle('darker');
+    // Remove the Scroll from the body
+    bodybody.classList.toggle('no-scroll');
 });
 
 
@@ -153,6 +159,8 @@ closeapp2.addEventListener('click', function () {
     app2description.classList.toggle('slide-in');
     // change the portfolio section
     portfoliotops.classList.toggle('darker2');
+    // Turn Scroll back on
+    bodybody.classList.toggle('no-scroll');
 });
 
 
