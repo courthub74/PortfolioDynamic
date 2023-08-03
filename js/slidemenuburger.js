@@ -198,6 +198,8 @@ blog1.addEventListener('click', function () {
     blog1slidein.classList.toggle('slide-in');
     // darken the header
     blogtops.classList.toggle('darker');
+    // Remove the Scroll from the body
+    bodybody.classList.toggle('no-scroll');
 });
 
 // apply an Event Listener to the close button
@@ -210,6 +212,8 @@ closeblog1.addEventListener('click', function () {
     blog1slidein.classList.toggle('slide-in');
     // turn on darker 2
     blogtops.classList.toggle('darker2');
+    // Turn Scroll back on
+    bodybody.classList.toggle('no-scroll');
 });
 
 
@@ -233,6 +237,8 @@ blog2.addEventListener('click', function () {
     blog2slidein.classList.toggle('slide-in');
     // darken the header
     blogtops.classList.toggle('darker');
+    // Remove the Scroll from the body
+    bodybody.classList.toggle('no-scroll');
 });
 
 // apply an Event Listener to the close button
@@ -245,4 +251,7 @@ closeblog2.addEventListener('click', function () {
     blog2slidein.classList.toggle('slide-in');
     // turn on darker 2
     blogtops.classList.toggle('darker2');
+     // Turn Scroll back on
+     bodybody.classList.toggle('no-scroll');
 });
+
