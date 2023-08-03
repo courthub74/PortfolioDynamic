@@ -281,7 +281,7 @@
     height: 7vw;
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html p {
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -307,7 +307,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -333,7 +333,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -391,7 +391,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .react-native p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     text-align: center;
@@ -418,7 +418,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .reactjs p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -444,7 +444,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .figma p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -499,7 +499,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet .javascript p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -526,7 +526,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet .python p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -553,7 +553,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .iconsthirdrowtablet .php p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -607,7 +607,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .iconsfourthrowtablet .nodejs p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -634,7 +634,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .iconsfourthrowtablet .django p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -661,7 +661,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .webframeworksdivtablet .iconsfourthrowtablet .laravel p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -715,7 +715,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .mongo p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -742,7 +742,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .firebase p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -769,7 +769,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .databasedivtablet .iconsfifthrowtablet .postgre p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -822,7 +822,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .heroku p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -847,7 +847,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .azureicon p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -874,7 +874,7 @@
   }
   * body .tabletcontainer #skillstabletcontainer #skillstablet .botskillstablet .deploymentdivtablet .iconssixthrowtablet .aws p {
     color: white;
-    color: #7FC4C9;
+    color: #d9e2e2;
     font-size: 2.5vw;
     opacity: 0.7;
     font-family: "Roboto", sans-serif;
@@ -1885,7 +1885,7 @@
     margin: -1vh 0 0 0;
   }
   * body .tabletcontainer #blogtabletcontainer #blogtablet .blogtwo-slide-in .blogonearrow {
-    margin: 3vh 0 0 40vw;
+    margin: 3vh 0 0 44vw;
   }
   * body .tabletcontainer #blogtabletcontainer #blogtablet .blogtwo-slide-in .blogonearrow button {
     display: flex;
