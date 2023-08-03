@@ -77,6 +77,25 @@ homeselect.addEventListener('click', function () {
     hamburger.classList.toggle('is-gone');
 });
 
+// ABOUT MENU
+
+// query the About menu button
+const aboutselect = document.getElementById('about_menu_tablet');
+
+// add an event listener to the aboutselect button
+aboutselect.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Home on the Slide Menu")
+    // toggle the slide in menu css class on to slide-in
+    slide_menu_home.classList.toggle('slide-in');
+    // toggle scroll back on
+    bodybody.classList.toggle('no-scroll');
+    // toggle the X to go away
+    buttonx.classList.toggle('is-shown');
+    // toggle the burger to come back
+    hamburger.classList.toggle('is-gone');
+});
+
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
