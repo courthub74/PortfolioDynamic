@@ -82,7 +82,7 @@
     display: block;
     background-color: #080E2F;
     margin: 0 0 0 0;
-    transition: 0.8s;
+    transition: 0.7s;
     z-index: 95;
   }
   * body .tabletcontainer #tablethome .tablet-nav-home .tabletlogohome {

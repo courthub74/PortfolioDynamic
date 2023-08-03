@@ -85,7 +85,102 @@ const aboutselect = document.getElementById('about_menu_tablet');
 // add an event listener to the aboutselect button
 aboutselect.addEventListener('click', function () {
     // test print
-    console.log("You've pressed the Home on the Slide Menu")
+    console.log("You've pressed the About on the Slide Menu")
+    // toggle the slide in menu css class on to slide-in
+    slide_menu_home.classList.toggle('slide-in');
+    // toggle scroll back on
+    bodybody.classList.toggle('no-scroll');
+    // toggle the X to go away
+    buttonx.classList.toggle('is-shown');
+    // toggle the burger to come back
+    hamburger.classList.toggle('is-gone');
+});
+
+// SKILLS MENU
+
+// query the Skills menu button
+const skillsselect = document.getElementById('skills_menu_tablet');
+
+// add an event listener to the aboutselect button
+skillsselect.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Skills on the Slide Menu")
+    // toggle the slide in menu css class on to slide-in
+    slide_menu_home.classList.toggle('slide-in');
+    // toggle scroll back on
+    bodybody.classList.toggle('no-scroll');
+    // toggle the X to go away
+    buttonx.classList.toggle('is-shown');
+    // toggle the burger to come back
+    hamburger.classList.toggle('is-gone');
+});
+
+// PORTFOLIO MENU
+
+// query the Skills menu button
+const portfolioselect = document.getElementById('portfolio_menu_tablet');
+
+// add an event listener to the aboutselect button
+portfolioselect.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Portfolio on the Slide Menu")
+    // toggle the slide in menu css class on to slide-in
+    slide_menu_home.classList.toggle('slide-in');
+    // toggle scroll back on
+    bodybody.classList.toggle('no-scroll');
+    // toggle the X to go away
+    buttonx.classList.toggle('is-shown');
+    // toggle the burger to come back
+    hamburger.classList.toggle('is-gone');
+});
+
+// EXPERIENCE MENU
+
+// query the Skills menu button
+const experienceselect = document.getElementById('experience_menu_tablet');
+
+// add an event listener to the aboutselect button
+experienceselect.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Portfolio on the Slide Menu")
+    // toggle the slide in menu css class on to slide-in
+    slide_menu_home.classList.toggle('slide-in');
+    // toggle scroll back on
+    bodybody.classList.toggle('no-scroll');
+    // toggle the X to go away
+    buttonx.classList.toggle('is-shown');
+    // toggle the burger to come back
+    hamburger.classList.toggle('is-gone');
+});
+
+// BLOG MENU
+
+// query the blog menu button
+const blogselect = document.getElementById('blog_menu_tablet');
+
+// add an event listener to the blogselect button
+blogselect.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Blog on the slide menu button");
+    // toggle the slide in menu css class on to slide-in
+    slide_menu_home.classList.toggle('slide-in');
+    // toggle scroll back on
+    bodybody.classList.toggle('no-scroll');
+    // toggle the X to go away
+    buttonx.classList.toggle('is-shown');
+    // toggle the burger to come back
+    hamburger.classList.toggle('is-gone');
+});
+
+// CONTACT MENU
+
+// query the blog menu button
+const contactselect = document.getElementById('contact_menu_tablet');
+
+// add an event listener to the blogselect button
+contactselect.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Contact on the slide menu button");
     // toggle the slide in menu css class on to slide-in
     slide_menu_home.classList.toggle('slide-in');
     // toggle scroll back on
