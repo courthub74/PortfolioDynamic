@@ -56,6 +56,27 @@ wholebutton.addEventListener('click', function () {
     bodybody.classList.toggle('no-scroll');
 });
 
+// CLOSE MENUS
+
+// HOME BUTTON
+
+// query the Home selection
+const homeselect = document.getElementById('home_menu_tablet');
+
+// add an event listener to the homeselect button
+homeselect.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Home on the Slide Menu")
+    // toggle the slide in menu css class on to slide-in
+    slide_menu_home.classList.toggle('slide-in');
+    // toggle scroll back on
+    bodybody.classList.toggle('no-scroll');
+    // toggle the X to go away
+    buttonx.classList.toggle('is-shown');
+    // toggle the burger to come back
+    hamburger.classList.toggle('is-gone');
+});
+
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
